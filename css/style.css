@@ -50,20 +50,19 @@ header .container{
     padding:20px 0;
 }
 
-.logo img{
-    height:85px;
+header img{
+    width:80px;
 }
 
-nav{
-    display:flex;
-    gap:35px;
+nav ul{
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    font-weight:600;
-    transition:.3s;
+    font-size:16px;
+}
 }
 
 nav a:hover{
@@ -644,15 +643,40 @@ img{
 .products{
     display:grid;
     grid-template-columns:1fr;
-    gap:30px;
+    gap:25px;
+    padding:20px;
 }
 
 .product-card{
     width:100%;
 }
 
-footer .container{
+.product-card img{
+    width:100%;
+    height:auto;
     display:block;
+}
+
+.product-info{
+    padding:15px;
+}
+
+.product-info h3{
+    font-size:24px;
+}
+
+.product-info p{
+    font-size:16px;
+}
+
+section{
+    padding:40px 20px;
+}
+
+.container{
+    width:100%;
+    padding:0 20px;
+    margin:auto;
 }
 
 }
