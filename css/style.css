@@ -571,4 +571,88 @@ footer{
     align-items:center;
     font-size:14px;
     border:2px solid white;
+}.footer-links{
+    margin-top:15px;
+}
+
+.footer-links a{
+    color:#d4af37;
+    text-decoration:none;
+    margin:0 8px;
+}
+
+.footer-links a:hover{
+    color:#ffffff;
+}.contact-form{
+    max-width:700px;
+    margin:50px auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:18px;
+    border-radius:10px;
+    border:1px solid #444;
+    background:#1b1b1b;
+    color:white;
+    font-size:16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+    outline:none;
+    border:1px solid #d4af37;
+}
+
+.contact-form textarea{
+    resize:vertical;
+}
+
+.contact-form button{
+    align-self:center;
+}@media (max-width: 768px) {
+
+.container{
+    width:95%;
+    margin:auto;
+}
+
+nav ul{
+    flex-direction:column;
+    gap:15px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+}
+
+.product-card{
+    width:100%;
+}
+
+footer .container{
+    display:block;
+}
+
 }
